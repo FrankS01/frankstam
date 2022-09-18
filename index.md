@@ -1,5 +1,3 @@
-# Frank Stam
-
 ## Links
 
 [LinkedIn](https://www.linkedin.com/in/frank-stam01/)
