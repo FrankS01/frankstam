@@ -28,7 +28,7 @@ function App() {
                                      title="Bathunt"
                                      description="The first game I have ever released.
                                      Inspired by the old-school game Duckhunt, the objective of this game is to shoot bats to score points."
-                                     url="https://kwartet.frankstam.nl.eu.org/"/>
+                                     url="https://frank-s.itch.io/bathunt"/>
                         </div>
                     </section>
                     <section id="involved-projects" className="mb-12">
@@ -37,12 +37,12 @@ function App() {
                             <Project imgSrc={pairless}
                                      title="Pairless"
                                      description="Top-down pixel adventure game that does not take itself too seriously. Created during a school project."
-                                     url="https://kwartet.frankstam.nl.eu.org/"/>
+                                     url="https://sleepy-wolf-studios.itch.io/pairless"/>
                             <Project imgSrc={patternpal}
                                      title="Patternpal"
                                      description="PatternPal is a Visual Studio extension that can recognize software design patterns in your code.
                                      It also contains a step-by-step mode for learning new design patterns."
-                                     url="https://kwartet.frankstam.nl.eu.org/"/>
+                                     url="https://github.com/PatternPal/PatternPal"/>
                         </div>
                     </section>
                     <section id="about" className="mb-12">
