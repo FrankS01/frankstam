@@ -1,4 +1,9 @@
 import React from 'react';
+import { IconContext } from "react-icons";
+import { FaGithub } from "react-icons/fa";
+import { FaGitlab } from "react-icons/fa";
+import { FaInstagram } from "react-icons/fa";
+import { FaFlickr } from "react-icons/fa";
 
 // Images imports
 import profile from './images/profile.png';
@@ -45,7 +50,7 @@ function App() {
                                      url="https://github.com/PatternPal/PatternPal"/>
                         </div>
                     </section>
-                    <section id="about" className="mb-12">
+                    <section id="about">
                         <div className="flex flex-col gap-6 font-light max-w-3xl">
                             <h1 className="text-4xl text-slate-300 text-center">About me</h1>
                             <div className="flex flex-row gap-16">
@@ -57,11 +62,24 @@ function App() {
                                     Some of the things that I enjoy in my spare time are gaming, bouldering, geocaching
                                     and
                                     photography.
+                                    I post the pictures I take as <i>Shots by Frank</i> on Instagram and Flickr.
                                 </p>
                             </div>
                         </div>
                     </section>
                 </main>
+                <footer>
+                    <div className="flex flex-row justify-center mb-6">
+                        <IconContext.Provider value={{size: "2em", className: "text-gray-400 hover:text-gray-300" }}>
+                            <div className="flex flex-row justify-center gap-5">
+                                <a href="https://github.com/FrankS01/" title="GitHub"><FaGithub/></a>
+                                <a href="https://gitlab.com/FrankS01/" title="GitLab"><FaGitlab/></a>
+                                <a href="https://www.instagram.com/shots_by_frank/" title="Instagram - Shots by Frank"><FaInstagram/></a>
+                                <a href="https://flickr.com/photos/shots_by_frank/" title="Flickr - Shots by Frank"><FaFlickr/></a>
+                            </div>
+                        </IconContext.Provider>
+                    </div>
+                </footer>
             </div>
         </div>
     )
