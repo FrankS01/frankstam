@@ -28,7 +28,7 @@ function App() {
                             <Project imgSrc={kwartet}
                                      title="Kwartet"
                                      description="An online editor which can be used to create your own games of quartets."
-                                     url="https://kwartet.frankstam.nl.eu.org/"/>
+                                     url="https://kwartet.frankstam.dev"/>
                             <Project imgSrc={bathunt}
                                      title="Bathunt"
                                      description="The first game I have ever released.
