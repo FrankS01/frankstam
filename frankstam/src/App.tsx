@@ -53,9 +53,9 @@ function App() {
                     <section id="about">
                         <div className="flex flex-col gap-6 font-light max-w-3xl">
                             <h1 className="text-4xl text-slate-300 text-center">About me</h1>
-                            <div className="flex flex-row gap-16">
-                                <div className="min-w-[233px]">
-                                    <img src={profile} alt="Frank Stam" className="h-[150px] float-right"/>
+                            <div className="flex flex-col sm:flex-row items-center sm:items-start gap-8 sm:gap-16 text-center sm:text-left">
+                                <div className="min-w-[233px] flex justify-center sm:justify-end">
+                                    <img src={profile} alt="Frank Stam" className="h-[150px]"/>
                                 </div>
                                 <p>
                                     I’m a developer from the Netherlands.
