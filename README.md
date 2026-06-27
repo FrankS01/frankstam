@@ -1,1 +1,1 @@
-Hosts my personal webpage which is accesible at https://frankstam.dev/
+Repo for my personal webpage which is accesible at https://frankstam.dev/
